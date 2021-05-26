@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVECASINO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1,h2,h3 {
+            font-family: sans-serif;
+            color: white;
+        }
+        p {
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        li {
+            list-style: none;
+        }
+        .bg-img {
+            background-image: url(imag/banner2.jpg);
+            height: 100vh;
+            background-size: 100vw 100vh ;
+            background-repeat: no-repeat;
+        }
+        nav {
+         display: flex;
+         justify-content: space-around;
+          align-items: center;
+         height: 19vh;
+        }
+        .nav-links {
+            display: flex; 
+            justify-content: space-around;  
+            width: 49%;
+            margin-left: 22%;  
+            
+        }
+        .nav-links span li a{
+            color: rgb(9, 9, 238);
+        }
+        .nav-links li a{
+            color: white;
+            transition: all 1.2s;
+        }
+        .nav-links  li a:hover {
+            color: blue;
+        }
+        .text {
+            display: flex;
+            justify-content: space-around;
+        }
+        .content h1{
+           margin-top: 2%;
+           font-size: larger;
+           font-size: 90px;
+        }
+        .content p{
+             margin-top: 3%;
+             font-size: 22px;
+        }
+        .content span a {
+            margin-left: 3%;
+        }
+        .content a{
+        position: relative;
+        top: 12%;
+        padding: 17px 52px;
+        background-color: white;
+        color: black;
+        border-radius: 23px;
+        transition: all 1.2s;
+        }
+        .content a:hover {
+           background-color: rgb(45, 45, 236);
+        }
+        .card-img {
+           background-image: url(imag/img.png);
+           width: 30vw;
+           height:75vh;
+           background-repeat: no-repeat;
+           background-size: 30vw,10vh;
+        }
+        .abt-img {
+            background-image: url(imag/about_bg.png);
+            height: 100vh;
+            width: 100vw;
+        }
+
+
+
+
+
+
+        @media screen and (max-width: 768px){
+             body {
+                 display: none;
+             }
+        }
+
+
+
+    </style>
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <!-- background image -->
+            <div class="bg-img">
+    
+                <!-- nav starts -->
+                <nav>
+    
+                    <div class="logo"> <a href="#"><img src="imag/logo.png" alt="logo"></a></div>
+                    <ul class="nav-links">
+                        <span>
+                            <li><a href="#">HOME</a></li>
+                        </span>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CASINO</a></li>
+                        <li><a href="#">TESTIMONIAL</a></li>
+                        <li><a href="#">BOOK TABLE</a></li>
+                        <li><a href="#"><img src="imag/search_icon.png" alt="searchicon"></a></li>
+                    </ul>
+                </nav>
+                <!-- nav ends -->
+                <div class="text">
+                    <div class="content">
+                        <h1>Welcome to <br>
+                            Our casino</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis </p>
+                        <a href="#">Contact us</a>
+                        <span><a href="#">Book Online</a></span>
+                    </div>
+    
+                    <div>
+                        <div class="card-img"></div>
+                    </div>
+    
+                </div>
+    
+    
+    
+            </div>
+              <!-- bg-img ends -->
+              
+              <div class="abt-img">
+
+
+              </div>
+
+
+
+
+
+
+
+    
+    
+    
+    
+        </div>
+    </body>
+    
+    </html>

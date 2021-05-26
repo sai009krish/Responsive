@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            background-image: url(images/banner2.jpg);
+            height: 799px;
+            width: 1349px;
+            background-size: 1400px 890px;
+            background-repeat: no-repeat;
+        }
+
+        .logo {
+            /* border: 2px solid tomato; */
+            flex: 2.5;
+
+        }
+
+        .logr {
+            /* border: 2px solid tomato; */
+            flex: 1;
+
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            /* border: 2px solid tomato; */
+        }
+
+        .header .logo {
+            margin-left: 10vh;
+            margin-top: 5vh;
+        }
+
+        .logr ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .logr ul li {
+            padding: 29px 20px;
+        }
+
+        .logr ul li a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+        .logr ul li .a {
+            background-color: red;
+            padding: 5px 22px;
+            line-height: 25px;
+            border-radius: 5px;
+        }
+
+        .text {
+            border: 2px solid tomato;
+            height: 105vh;
+            display: flex;
+        }
+
+        .side {
+            border: 2px solid tomato;
+            flex: 2;
+        }
+
+        .side ol {
+            list-style: none;
+            margin-top: 5px;
+        }
+
+        .side ol li {
+            color: white;
+            padding-top: 16px;
+            padding-left: 100px;
+        }
+
+        .sider {
+            flex: 9;
+            border: 2px solid tomato;
+        }
+
+        .content {
+            color: white;
+            margin-top: 20px;
+            position: absolute;
+            top: 57%;
+            left: 3%;
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .content h2 {
+            font-size: 50px;
+        }
+        .content p {
+            font-size: 20px;
+        }
+        .content button {
+            background-color: white;
+            margin-top: 2%;
+            padding: 7px 15px;
+            color: red;
+        }
+        .sider {
+            background: url(images/img.png) no-repeat;
+             background-size: 80%;
+              background-position: right;
+              position: relative;   
+        }
+         .gam h1 {
+             margin-top: 7%;
+             margin-left: 12%;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         } 
+         .games > div {
+             margin-top: 10px;
+         }   
+         .box1   {
+             display: flex;          
+             justify-content: space-evenly;
+         }
+         .box2   {
+             display: flex;
+             justify-content: space-evenly;        
+         }
+         .box3   {
+             display: flex;
+             justify-content: space-evenly;           
+         }
+         .conten {
+               position: relative;
+               right: 9%;
+               margin-top: 5%;
+          }
+          .conten a {
+              text-decoration: none;
+               background-color: black;
+               color: white;
+               position: relative;
+               top: 20px;
+              padding: 10px 20px;
+          }
+          .footer {
+              background-color: rgb(34, 31, 31);
+              width: 100%;
+              height: 530px;
+              display: inline-block;
+          }
+          .foooter-top {
+            color: white;
+            margin-top: 7%;
+            margin-left: 40%;
+            font-family:sans-serif;
+            font-size: 25px;
+          }
+          .foooter-top input {
+              margin-top: 7px;
+              width: 750px;
+              outline: none;
+              height: 50px;
+              margin-left:-190px ;
+          }
+          .footer-down{
+              display: flex;
+              justify-content: space-evenly;
+              color: white;
+          }
+        
+        
+         
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    </style>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section>
+
+            <!-- header start -->
+            <div class="header">
+
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="logr">
+                    <ul>
+                        <li><a class="a" href="#">LOGIN</a> </li>
+                        <li><a href="#">SIGNUP</a></li>
+                        <li><a href=""><i class="fas fa-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--header ends  -->
+
+            <!-- content starts -->
+
+            <div class="text">
+
+                <div class="side">
+                    <ol>
+                        <li>GAME</li>
+                        <li>SOFTWARE</li>
+                        <li>ABOUT</li>
+                        <li>TESTIMONAL</li>
+                        <li>CONTACT</li>
+                    </ol>
+                </div>
+
+                <div class="sider">                   
+                    <div class="content">
+                        
+                        <h2>AMAZING 3D GAME</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod<br>
+                            tempor incididunt ut
+                        </p>
+                        <button>DOWNLOAD</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- content ends -->
+
+
+
+
+        </section>
+    
+            <div class="gam">
+                <h1>OUR GAMES</h1>
+            </div>
+            <!-- games -->
+
+            <div class="games">
+                    <div class="box1">
+                  <div>
+                  <img src="images/our-image1.jpg" alt="">
+                  </div>
+
+                  <div class="conten">
+                     <h2>Angry Birds</h2>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br> exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut labore et</p>
+                     <a href="#">Free Download</a>
+                </div>
+                    </div>
+
+                     <div class="box2">
+                <div>
+                    <img src="images/our-image2.jpg" alt="">
+                    </div>
+  
+                    <div class="conten">
+                       <h2>Angry Birds</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br> exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut labore et</p>
+                       <a href="#">Free Download</a>
+                  </div>
+                     </div>
+                
+                      <div class="box3">
+                  <div>
+                    <img src="images/our-image3.jpg" alt="">
+                    </div>
+  
+                    <div class="conten">
+                       <h2>Angry Birds</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br> exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut labore et</p>
+                       <a href="#">Free Download</a>
+                  </div>
+                      </div>
+
+            </div>
+
+             <div>
+             <h3>software</h3>
+
+             <div>
+             <img src="images/soft.jpg" alt="">
+                <div>
+             
+                    
+             <div>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                       <a href="#">Read more</a>
+                </div>
+
+
+
+
+
+             </div>
+                <!-- footer -->
+            
+            <div class="footer">
+               
+                <div class="foooter-top">
+                <div> <h2>Newsletter</h2> </div>
+                <input type="text" placeholder="enter your email">
+                 <a href="#">SUBBSCRIBE</a>      
+               </div>
+                   <!-- footer down -->
+                     <div class="footer-down">
+
+                  <div>
+                <ol>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                    <li><i class="fab fa-google-plus-square"></i></li>
+                </ol>
+                <img src="images/logo.png" alt="">
+                  </div>   
+
+                   <div>
+                   <h3>Quick Links</h3>
+
+                    <ul>
+                   <li>Game</li>
+                   <li>Software</li>
+                   <li>About</li>
+                   <li>Testimonail</li>
+                    <li>Contact</li>
+                     </ul>
+                   </div>
+
+                      <div>
+                     <h3>Downloaded</h3>
+                     <ul>
+                    <li>Lorem ipsum</li>
+                    <li>Simply random</li>
+                    <li>Roots in a</li>
+                    <li>Piece</li>
+                     <li>Classical</li>
+                      </ul>
+                      </div>
+
+
+                         <div> 
+                       <h3>CONTACT <br> US</h3>
+                       <ol>
+                           <li><i class="fas fa-map-marker-alt"></i></li>
+                            <li><i class="fas fa-envelope-open"></i></li>
+                             <li><i class="fas fa-phone-volume"></i></li>
+                        </ol>
+
+                       </div>
+                 
+
+                     </div>
+
+
+
+
+
+
+               </div>
+                  
+               
+
+
+        </div>
+        </body>
+
+</html>

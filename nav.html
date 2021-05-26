@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{padding: 0;margin: 0;box-sizing: border-box;}
+       nav {
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           background-color: rgb(95, 87, 87);
+           min-height: 12vh;
+           font-family:sans-serif;
+       }
+       .logo {
+           text-transform: uppercase;
+           color: rgb(236, 231, 231);
+           font-size: 19px;
+           letter-spacing: 2px;
+       }
+       .nav-links {
+           display: flex;
+           justify-content: space-around;
+           width: 30%;
+           list-style: none;
+       }
+       .nav-links a {
+           text-decoration: none;
+           color: white;
+       }
+       .burger {
+           display: none;
+       }
+       .burger div{
+           width: 25px;
+           height: 3px;
+           background-color: rgb(245, 236, 236);
+           margin: 5px;
+       }
+        section {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 5vw;
+        }
+
+
+       
+       @media screen and (max-width: 1024px) {
+            .nav-links{
+                width: 60%;
+            }
+            section > img{
+                       width: 24%;
+                    }
+             
+       }
+         @media screen and (max-width:768px ){
+                    .nav-links {
+                        width: 57%;
+                    }
+                    section {
+                        flex-direction: column;
+                        
+                        
+                        /* display: flex; */
+                        /* justify-content: space-evenly; */
+                    }
+                    section > img{
+                       margin-top: 3px;
+                       width: 97%;
+                       
+                    }
+         }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+      <nav>
+          <div class="logo">the nav</div>
+         <ul class="nav-links">
+             <li><a href="">Home</a></li>
+             <li><a href="">About</a></li>
+             <li><a href="">Work</a></li>
+             <li><a href="">Projects</a></li>
+         </ul>
+             <div class="burger">
+                 <div class="line1"></div>
+                 <div class="line2"></div>
+                 <div class="line3"></div>
+             </div>
+      </nav>
+       <section class="images">
+           <img src="image/place-01.jpg" alt="">
+           <img src="image/place-02.jpg" alt="">
+           <img src="image/place-03.jpg" alt="">
+           <img src="image/place-04.jpg" alt="">
+       </section>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+//map , filter, some , reduce , every , find , findeindex
+
+//map retuns an array 
+
+var newarr=[];
+
+
+for(i=0;i<fruits.length;i++){
+   newarr.push(fruits[i])
+}
+
+alert(newarr))
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+//map , filter, some , reduce , every , find , findeindex
+
+//map retuns an array , callback func
+
+var newarr= fruits.map(function(ele){
+   return "my "+ele;
+
+});
+
+alert(newarr);
+
+
+</script>
+
+</body>
+</html>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
